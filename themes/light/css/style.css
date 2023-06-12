@@ -1,0 +1,250 @@
+.main-nav {
+    margin-left: 0.5rem;
+}
+.form-login {
+    max-width: 350px;
+}
+.error {
+    color: red;
+}
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+.form-floating {
+    margin-bottom: 5px;
+}
+.form-floating:last-child {
+    margin-bottom: 0;
+}
+.dropdown-username {
+    /*font-size: 13px;*/
+}
+.categories-list {
+    max-width: 900px;
+}
+.categories-list .category {
+    height: 16rem;
+}
+.card-title {
+    font-size: 2.5rem ;
+    margin-left: 0.2em;
+}
+.category-card-title {
+    font-size: 3.5rem;
+}
+.card-title-shadow {
+    text-shadow: 3px 5px 2px #474747;
+}
+.card-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.edit-form-field {
+    width: 550px;
+}
+.list-recipe-img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 190px;
+}
+.float-right {
+    float: right;
+}
+.recipe-form-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.recipe-form-img-box {
+    margin: 15px auto;
+    width: 500px;
+    height: 300px;
+}
+.container-xxs {
+    max-width: 1100px;
+    padding: 0 10rem;
+}
+.recipe-info {
+    max-width: 600px;
+}
+.recipe-ingredients {
+    width: 600px;
+}
+.recipe-short-info {
+    table-layout: fixed;
+    border-collapse: collapse;
+
+}
+.recipe-short-info td,.recipe-short-info th {
+    padding: 20px 30px 10px;
+    text-align: center;
+}
+.recipe-short-info th {
+    text-transform: uppercase;
+    color: darkslategrey;
+}
+.recipe-short-info td {
+    font-size: larger;
+}
+.mt-6 {
+    margin-top: 5rem;
+}
+.title-underline {
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #d2ebe8;
+}
+.recipe-header {
+    padding-bottom: 2rem;
+}
+.recipe-img-box {
+    width: 600px;
+    height: 300px;
+}
+.recipe-img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 300px;
+}
+.recipe-category {
+    margin-left: 10px;
+    color: #474747;
+    font-size: larger;
+}
+.recipe-description {
+    font-size: large;
+    text-align: justify;
+}
+.container-profile {
+    max-width: 700px;
+}
+.sorry-message {
+    margin: 5rem auto;
+}
+.favourite-label input[type="checkbox"] {
+    display: none;
+}
+.favourite-label {
+    margin-left: 1em;
+    position: relative;
+    cursor: pointer;
+}
+.favourite-label .fa {
+    color: gold;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.favourite-label .fa-star-o {
+    color: gray;
+}
+.favourite-label .fa-star {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.favourite-label:hover .fa-star{
+    opacity: 0.5;
+}
+.favourite-label input[type="checkbox"]:checked ~ .fa-star {
+    opacity: 1;
+}
+.recipe-favourite-btn {
+    top: -10rem;
+}
+.recipe-nutrition {
+    width: 600px;
+    padding-left: 5rem;
+    background: linear-gradient(to bottom,#ebf8f8 0,#fefefe 100%);
+}
+.recipe-instructions {
+    max-width: 600px;
+}
+.delete-ingredient-field {
+    width: 2.2em;
+    height: 2.2em;
+    background-position: center;
+}
+.home-recipe-img {
+    max-height: 150px;
+}
+.home-tip {
+    margin-right: 1rem;
+}
+.home-recipe-long {
+    padding-left: 0!important;
+}
+.home-recipe-long-img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+.card-group-recipe-img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 200px;
+}
+.card-group-recipe-card {
+    max-height: 600px;
+}
+.about-section {
+    padding: 1rem 0;
+}
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid #f3f3f7;
+    padding: 10px 10px 20px;
+    margin: 10px 0 30px;
+}
+
+.filters form {
+    display: flex;
+    gap: 10px;
+}
+
+.filters .minmax {
+    display: flex;
+    width: 200px;
+    gap: 10px;
+}
+
+.filters select, input {
+    width: 200px;
+}
+.filters .order select
+{
+    width: 100px;
+}
+.filters .order {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 50px;
+}
+.filters .button {
+    display: flex;
+    align-items: end;
+}
+.filters button {
+    width: 140px;
+}
+
+.page-item.active.green .page-link {
+    background-color: #3c8c5f;
+    top: -2px;
+    border: 3px solid #3c8c5f;
+}
+.page-link.green {
+    color: #3c8c5f;
+}
+.pr-4 {
+    padding-right: 1.5rem !important;
+}
